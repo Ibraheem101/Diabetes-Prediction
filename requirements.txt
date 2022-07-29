@@ -3,3 +3,4 @@ joblib
 seaborn
 numpy
 pandas
+xgboost
