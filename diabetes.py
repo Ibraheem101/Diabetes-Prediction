@@ -22,7 +22,7 @@ if app_mode=='Home':
     data = pd.read_csv('diabetes.csv')
     st.write(data.head(10))
     st.write(data.columns)
-    st.markdown('Applicant Income VS Loan Amount ')
+    #st.markdown(' ')
 
     fig = plt.figure(figsize=(10, 7))
     sns.heatmap(data.corr(), annot = True)
